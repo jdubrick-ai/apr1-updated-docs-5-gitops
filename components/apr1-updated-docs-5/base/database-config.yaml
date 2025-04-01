@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apr1-updated-docs-5-database-config
+data:
+  VECTORDB_HOST: "apr1-updated-docs-5-database"
+  VECTORDB_PORT: ""
